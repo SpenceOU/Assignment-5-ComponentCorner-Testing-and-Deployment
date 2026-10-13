@@ -1,0 +1,101 @@
+/* Footer.css
+   CSS generated with assistance from Claude (Anthropic AI) */
+
+.footer {
+  background: #0a0a0a;
+  color: #fff;
+  margin-top: 80px;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 60px 80px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-brand {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: #9a9a9a;
+  font-size: 16px;
+}
+
+.footer-heading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-community {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ddd;
+}
+
+.footer-signup {
+  display: flex;
+  border-bottom: 1px solid #9a9a9a;
+}
+
+.footer-input {
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px 0;
+  outline: none;
+}
+
+.footer-submit {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  font-size: 14px;
+  color: #9a9a9a;
+}
+
+@media (max-width: 768px) {
+  .footer-main {
+    grid-template-columns: 1fr;
+    padding: 40px 24px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    padding: 20px 24px;
+  }
+}

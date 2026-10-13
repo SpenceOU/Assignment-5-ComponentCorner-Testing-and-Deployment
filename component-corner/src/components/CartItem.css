@@ -1,0 +1,51 @@
+/* CartItem.css
+   CSS generated with assistance from Claude (Anthropic AI) */
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background: #efefef;
+}
+
+.cart-item-info {
+  flex-grow: 1;
+}
+
+.cart-item-name {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.cart-item-price {
+  font-size: 15px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.cart-item-remove {
+  background: transparent;
+  border: 1px solid #0a0a0a;
+  color: #0a0a0a;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.cart-item-remove:hover {
+  background: #0a0a0a;
+  color: #fff;
+}
